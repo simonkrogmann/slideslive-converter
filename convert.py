@@ -14,10 +14,10 @@ speaker_vid_y = 131 + 54
 speaker_vid_width = 480
 output_file = 'result.mp4'
 
-# my slides were recorded on a screen with resolution 1920 x 1200,
-# so we want to remove the black bars
-# set to 0 for a screen with 1920 x 1080
-black_bar_on_top_height = 60
+# my slides were recorded on a screen with a different format,
+# this caused undesirable black bars in the video
+# set to 60 to remove bars on a screen with 1920 x 1200 displaying 16:9 slides
+black_bar_on_top_height = 0
 
 # ------------------------------------------------------
 
